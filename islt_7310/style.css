@@ -1,4 +1,6 @@
-h1{color:#0099ff;}
+h1{color:#0099ff; font-size:250%; font-family:arial,helvetica,sans-serif;}
+
+h3{color:#0099ff; font-size:150%; font-family:arial,helvetica,sans-serif;}
 
 footer{font-size: 10pt;}
 a{color:#cc00cc; text-decoration:none; font-size:10pt;}
@@ -7,3 +9,18 @@ a:link{color:#9900cc;}
 a:hover, a:focus{color:#66cccc;}
 a:visited{color:#ff6699;}
 a:active{color:#3366cc;}
+
+main>p{color:#000000; font-size:100%; font-family:arial,helvetica,sans-serif;}
+
+main>blockquote{color:#000000; font-size:100%; font-family:arial,helvetica,sans-serif;}
+
+h5{color:#000000; font-size:110%; font-family:arial,helvetica,sans-serif;}
+#past{color:#3300ff; font-size:100%; font-family:arial,helvetica,sans-serif;}
+#current{color:#990066; font-size:100%; font-family:arial,helvetica,sans-serif;}
+
+img{
+    float:left;
+    margin-right: 20px;
+}
+
+main{clear:left;}
