@@ -1,5 +1,9 @@
 h1{color:#0099ff;}
 
 footer{font-size: 10pt;}
-
 a{color:#cc00cc; text-decoration:none; font-size:10pt;}
+
+a:link{color:#9900cc;}
+a:hover, a:focus{color:#66cccc;}
+a:visited{color:#ff6699;}
+a:active{color:#3366cc;}
