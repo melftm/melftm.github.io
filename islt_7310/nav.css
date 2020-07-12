@@ -1,0 +1,58 @@
+/*****************************************************************************
+
+Title:  Style Sheet - Navigation Bar
+
+Use:  CSS Style for Navigation Bar
+
+Author:  Maria Emilia Lasso de la Vega
+
+School/Term:  Mizzou, Summer 2020
+
+Developed: July 8, 2020
+
+Tested: July 8, 2020 - passed test on Google Chrome, FireFox, and Microsoft Edge
+
+******************************************************************************/
+
+.navigation_font {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+    .navigation a:link{color:#ffffff;}
+    .navigation a:visited{color:#ffffff}
+    .navigation a:hover, a:focus{color:#b6baba;}
+    .navigation a:active{color:#ffffff}
+
+ul.navigation li{
+    list-style-type: none;
+    display: inline-block;
+    width: 190px;
+    padding: 15px 15px 15px 15px;
+    background-color: #0093ab;
+    text-align: center;
+}
+
+#nav_menu ul {position: relative;}
+
+#nav_menu ul li {float: left;}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {float: none;}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
