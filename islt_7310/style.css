@@ -10,7 +10,7 @@ School/Term:  Mizzou, Summer 2020
 
 Developed: June 28, 2020
 
-Tested: July 17, 2018 - Firefox, Edge, and Chrome
+Tested: July 20, 2018 - Firefox, Edge, and Chrome
 
 ******************************************************************************/
 
@@ -192,7 +192,8 @@ Footer{
     font-size:1.5em;}
     h2{clear: both;}
     p{clear: both;}
-    #resume_foot{font-size: 0.5em;}}
+    footer{font-size: 0.5em;}
+    footer a{font-size: 0.5em;}}
 
 
 @media screen and (max-width:320px){
