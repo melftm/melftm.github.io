@@ -22,7 +22,7 @@ body{
 h1{
     padding: 10px;
     background-color: #ffffff;
-    color:#0099ff;
+    color:#1573B2;
     font-size:250%;
     text-align:center;
     font-family:"Lucida Sans Unicode", "Lucida Grande",sans-serif;
@@ -37,18 +37,18 @@ h2{
     margin-bottom: 5px;
     padding-top: 0px;
     padding-bottom: 5px;
-    color:#0093ab;
+    color:#105C90;
     font-size:200%;
     text-align:center;
     font-family:arial,helvetica,sans-serif;
     font-style:italic;}
 
 h3{
-    color:#0093ab;
+    color:#105C90;
     font-size:150%;
     font-family:arial,helvetica,sans-serif;
     clear:left;
-    margin-bottom:5px;}
+    margin-bottom:10px;}
 
 #headshot{
     margin: 5px;
@@ -71,8 +71,8 @@ h5{
     margin-bottom: 2px;
     color:#000000; font-size:110%; font-family:arial,helvetica,sans-serif;}
 
-#past{color:#3300ff; font-size:100%; font-family:arial,helvetica,sans-serif;}
-#current{color:#990066; font-size:100%; font-family:arial,helvetica,sans-serif;}
+#past{color:black; font-size:100%; font-family:arial,helvetica,sans-serif;}
+#current{color:black; font-size:100%; font-family:arial,helvetica,sans-serif;}
 
 .prompts{
     font-size: 1em;
