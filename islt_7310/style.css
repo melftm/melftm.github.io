@@ -113,14 +113,14 @@ main>blockquote{
 
 #quote{
     margin-top: 20px;
-    font-family: cursive;
+    font-family: 'Dancing Script', cursive;
     text-align: right;
-    font-size: 0.9em}
+    font-size: 1.5em}
 
 #author{
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;
     text-align: right;
-    font-size: 0.9em;}
+    font-size: 1em;}
 
     a:link{color:#9900cc;}
     a:hover, a:focus{color:#66cccc;}
@@ -198,3 +198,21 @@ Footer{
 
 @media screen and (max-width:320px){
     body{width:320px;}}
+
+@media print{
+    *{
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        border: none !important;}
+    
+    nav{
+        display: none;}
+    
+    a[href^="http:"]::after{
+        content: "["attr(href)"]";
+        color: blue;}
+    
+    @page{
+        margin: .5cm;}}
