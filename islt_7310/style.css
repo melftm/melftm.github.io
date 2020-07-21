@@ -176,6 +176,23 @@ Footer{
     padding-bottom: 10px;
 }
 
+@media print{
+    *{
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        border: none !important;}
+    
+    nav{
+        display: none;}
+    
+    a[href^="http:"]::after{
+        content: "["attr(href)"]";
+        color: blue;}
+    
+    @page{
+        margin: .5cm;}}
 
 @media screen and (max-width:959px){
     body{width:100%;}
@@ -198,21 +215,3 @@ Footer{
 
 @media screen and (max-width:320px){
     body{width:320px;}}
-
-@media print{
-    *{
-        background: transparent !important;
-        color: black !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-        border: none !important;}
-    
-    nav{
-        display: none;}
-    
-    a[href^="http:"]::after{
-        content: "["attr(href)"]";
-        color: blue;}
-    
-    @page{
-        margin: .5cm;}}
