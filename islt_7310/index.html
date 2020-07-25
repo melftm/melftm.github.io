@@ -14,7 +14,7 @@ School/Term:  Mizzou, Summer 2020
 
 Developed: June 28, 2020
 
-Tested: July 20, 2018 - Firefox, Edge, and Chrome
+Tested: July 24, 2018 - Firefox, Edge, and Chrome
 
 ******************************************************************************
 
@@ -35,7 +35,7 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
 
 </head>
 <body>
-    <div class="wrapper">
+    <section class="wrapper">
     
     <nav>
         <label id="hamburger" for="toggle">&#9776;</label>
@@ -46,9 +46,9 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
            	 <li><a href="resume.html">resume</a></li>
             	<li><a href="projects.html">projects &#9660;</a>
                 	<ul>
-                        <li><a href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
+                        <li><a href="projects.html#project1">Project 1</a></li>
+                        <li><a href="projects.html#project2">Project 2</a></li>
+                        <li><a href="projects.html#project3">Project 3</a></li>
                 	</ul>
             	</li>
             	<li><a href="reflection.html">reflection</a></li>
@@ -62,17 +62,20 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
     </header>
     
     <main>
-        <p> Welcome to my professional portfolio! My name is Maria Emilia Lasso de la Vega and in this portfolio you will find everything you need to know about me and the work that I do.</p>
+        <p id="welcome"> Welcome to my professional portfolio! My name is Maria Emilia Lasso de la Vega and in this portfolio you will find everything you need to know about me and the work that I do.</p>
 
-        <section>
-            <img src="images/headshot.PNG" id="headshot" alt="Maria Emilia Lasso de la Vega's professional headshot" width="150">
-
-            <h2>A little about me...</h2>
+        <h2>A little about me...</h2>
+        
+        <img src="images/headshot.PNG" id="headshot" alt="Maria Emilia Lasso de la Vega's professional headshot">
+        
+        <section id="bio_container">
+            
+            
 
             <p id="bio">I was born and raised in the Republic of Panama and moved to the US in 2014 to pursue my bachelor's degree. Currently, I am a student at the University of Missouri pursuing a Master of Science in Learning Technologies and Design, and I expect to complete my studies in the fall of 2021. Currently, I work with Missouri University of Science and Technology in the department of Student Diversity Initiatives. I hope that this degree can provide me with more insight to develop research backed training opportunities to tackle current global needs and provide new educational opportunities to underserved populations. The purpose of this portfolio is to show understanding and mastery of the Learning Technologies and Design competencies: Design and Development of Learning Systems, Front-End Analysis and System Evaluation, and Leadership and Social Responsibility.</p>
         </section>
 
-        <section>
+        <section id="edu_container">
             <h3>Education Background</h3>
             <h5>University of Missouri</h5>
                 <ul id="current">
@@ -86,21 +89,22 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
         </section>
 
        <blockquote id="quote">
-           &ldquo;Aprender a leer es lo más importante que me ha pasado en la vida.&rdquo;<br>
+           <p>>&ldquo;Aprender a leer es lo más importante que me ha pasado en la vida.&rdquo;<br>
 
-            &ldquo;Learning how to read is the most important thing that has happened to me.&rdquo;
+            &ldquo;Learning how to read is the most important thing that has happened to me.&rdquo;</p>
+           
+           <p id="author">- Mario Vargas Llosa</p>
         </blockquote>
-        <p id="author">- Mario Vargas Llosa</p>
     </main>
         
-    <div class="push">
-    </div>
-    </div>
+    <section class="push">
+    </section>
+    </section>
 
     <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
         
-        <p class="icon_contact"><img src="images/phone.png" width="18" alt="phone icon"> 
+        <p class="icon_contact"><img class="icons" src="images/phone.png" width="18" alt="phone icon"> 
         (469) 000-0000 | 
         <img class="icons" src="images/email.png" width="18" alt="email icon"> 
         <a href="mailto:melftm@mst.edu">melftm@mst.edu</a></p>

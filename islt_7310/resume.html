@@ -14,7 +14,7 @@ School/Term:  Mizzou, Summer 2020
 
 Developed: June 28, 2020
 
-Tested: July 20, 2018 - Firefox, Edge, and Chrome
+Tested: July 24, 2018 - Firefox, Edge, and Chrome
 
 ******************************************************************************
 
@@ -42,7 +42,7 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
     </head>
     
 <body>
-    <div class="wrapper">
+    <section class="wrapper">
     
     <nav>
         <label id="hamburger" for="toggle">&#9776;</label>
@@ -53,9 +53,9 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
            	 <li><a href="resume.html">resume</a></li>
             	<li><a href="projects.html">projects &#9660;</a>
                 	<ul>
-                        <li><a href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
+                        <li><a href="projects.html#project1">Project 1</a></li>
+                        <li><a href="projects.html#project2">Project 2</a></li>
+                        <li><a href="projects.html#project3">Project 3</a></li>
                 	</ul>
             	</li>
             	<li><a href="reflection.html">reflection</a></li>
@@ -66,28 +66,32 @@ Tested: July 20, 2018 - Firefox, Edge, and Chrome
     
     <header>
         <h1> Maria Emilia Lasso de la Vega </h1>
+        
+        <h2>My Experience</h2>
     </header>
     
     <main>
-        <a href="docs/lassodelavegaresume.pdf" id="resume">Resume</a> <br>
+        <section id="pdf">
+            <a href="docs/lassodelavegaresume.pdf" id="resume">Resume</a>
+        </section>
         
-        <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bEYRNpVzGtc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        
+        <section class="iframe-container">
+            <iframe width="250" height="140" src="https://www.youtube.com/embed/bEYRNpVzGtc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
     </main>
         
-    <div class="push">
-    </div>
-    </div>
+    <section class="push">
+    </section>
+    </section>
     
-    <footer>
+   <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
         
-        <p class="icon_contact"><img src="images/phone.png" width="18" alt="phone icon"> 
+        <p class="icon_contact"><img class="icons" src="images/phone.png" width="18" alt="phone icon"> 
         (469) 000-0000 | 
         <img class="icons" src="images/email.png" width="18" alt="email icon"> 
         <a href="mailto:melftm@mst.edu">melftm@mst.edu</a></p>
-        
         
         <p><a href="https://icons8.com/icon/103129/email">Email icon by Icons8</a> <br>
         <a href="https://icons8.com/icon/47813/phone">Phone icon by Icons8</a></p>

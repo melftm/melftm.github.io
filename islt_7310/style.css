@@ -10,7 +10,7 @@ School/Term:  Mizzou, Summer 2020
 
 Developed: June 28, 2020
 
-Tested: July 20, 2018 - Firefox, Edge, and Chrome
+Tested: July 24, 2018 - Firefox, Edge, and Chrome
 
 ******************************************************************************/
 
@@ -37,9 +37,14 @@ main{
     margin: 15px;
     padding: 10px;}
 
+#welcome{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 h2{
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin:45px;
     padding-top: 0px;
     padding-bottom: 5px;
     color:#105C90;
@@ -52,13 +57,28 @@ h3{
     color:#105C90;
     font-size:150%;
     font-family:arial,helvetica,sans-serif;
-    clear:left;
-    margin-bottom:10px;}
+    clear:left;}
+
+h4{
+    font-family:arial,helvetica,sans-serif;
+    margin:0;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: left;
+    background-color: #e0e0e0;
+    border-top: 2px solid #9ad7ed;
+}
 
 #headshot{
-    margin: 5px;
-    float:left;
-    padding-right: 20px;}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 30%;
+padding: 20px;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px #005866;}
 
 .social_media{
     float:left;
@@ -67,9 +87,23 @@ h3{
     padding: 25px;
 }
 
-#bio{
-    padding: 5px;
-    margin-top: 5px;}
+#bio_container{
+    padding: 20px;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px #005866;
+    font-family:arial,helvetica,sans-serif;
+}
+
+#edu_container{
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px #005866;
+}
+#edu_container h3{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
 
 h5{
     margin-top: 5px;
@@ -84,15 +118,19 @@ h5{
     font-family: sans-serif, "Helvetica", "Arial";
     text-align: left;
     color: #000000;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin: 0;
 }
 
 .contact{
     width: 100%;
+    height: 2em;
 }
 
 .message{
     width: 100%;
-    height: 5em;
+    height: 10em;
 }
 
 ul{
@@ -117,10 +155,11 @@ main>blockquote{
     font-family:arial,helvetica,sans-serif;}
 
 #quote{
-    margin-top: 20px;
+    margin-top: 60px;
+    margin: 40px;
     font-family: 'Dancing Script', cursive;
     text-align: right;
-    font-size: 1.5em}
+    font-size: 1.5em;}
 
 #author{
     font-family: 'Dancing Script', cursive;
@@ -134,12 +173,18 @@ main>blockquote{
 
 a{text-decoration:none; font-size:10pt;}
 
-Footer{
+footer{
     clear: both;
-    border-top: 2px solid #0099ff;
-    padding-top: 5px;
     font-size:10pt;
     text-align:center;}
+
+#pdf{
+    text-align: center;
+    padding: 20%;
+    margin: 0 0 30px 0;
+    background-color: #1573B2;
+    border: 20px solid #38b8ba;
+}
 
 .iframe-container{
   position: relative;
@@ -175,22 +220,65 @@ Footer{
 .icon_contact a:hover, a:focus{color:#b6baba;}
 .icon_contact a:active{color:#ffffff}
 
-footer{
-    background-image: url(images/footerbg.png);
-    height: 150px;
-    border-top: none;
-    padding-bottom: 10px;
+.icons:hover{
+    transform: scale(1.5,1.5);
 }
+
+.proj_boxes{
+    list-style: none;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.proj_boxes a{
+    text-align: center;
+    display: block;
+    background-color: #e0e0e0;
+    color:#105C90;
+    padding: 5%;
+    margin-bottom: -24px;;
+    font-size:100%;
+    font-family:arial,helvetica,sans-serif;
+}
+
+.proj_content p{
+    margin-top: 0;
+    padding: 5%;
+    background-color: #e0e0e0;
+    padding-bottom: 5%;
+    font-size:100%;
+    font-family:arial,helvetica,sans-serif;
+}
+
+.proj_content{
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.proj_content:target{
+    height: auto;
+}
+
+footer{
+    background-color: #0093ab;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
 
 .wrapper{
     min-height: 100%;
-    Margin-bottom: -150px;
+    Margin-bottom: auto;
 }
 
 .footer, .push{
-    height: 150px;
+    height: auto;
 }
-
 
 @media print{
     *{
@@ -198,21 +286,17 @@ footer{
         color: black !important;
         box-shadow: none !important;
         text-shadow: none !important;
-        border: none !important;}
-    
-    nav{
-        display: none;}
+        border: none !important;}}
     
     a[href^="http:"]::after{
         content: "["attr(href)"]";
         color: blue;}
     
     @page{
-        margin: .5cm;}}
+        margin: 0.5cm;}
 
 @media screen and (max-width:959px){
-    body{width:100%;}
-    .prompts{display: contents;}}
+    body{width:100%;}}
 
 @media screen and (max-width:640px){
     #headshot{
