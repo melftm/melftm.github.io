@@ -50,7 +50,8 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
                 	</ul>
             	</li>
             	<li><a href="reflection.html">reflection</a></li>
-            	<li><a href="contact.html">contact</a>
+                <li><a href="education.html">education</a></li>
+                <li><a href="contact.html">contact</a></li>
         	</ul>
 		</nav>
     </nav>
@@ -59,17 +60,26 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         <h1> Maria Emilia Lasso de la Vega </h1>
     </header>
     
-    <main>        
-        <section>
+    <main>
+        <form action="mailto:melftm@mst.edu?Subjet=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
              <h2>Let's Connect!</h2>
             
-            <p class="prompts">Name:</p>
-            <input type="text" class="contact">
-            <p class="prompts">Email:</p>
-            <input type="text" class="contact">
-            <p class="prompts">Message</p>
-            <input type="text" class="message">
-        </section>
+            <label for="name_first" class="prompts">First Name:</label>
+            <input type="text" class="contact" id="name_first" autofocus tabindex="1" required>
+            
+            <label for="name_last" class="prompts">Last Name:</label>
+            <input type="text" class="contact" id="name_last" tabindex="2" required>
+            
+            <label for="email" class="prompts">Email:</label>
+            <input type="text" class="contact" id="email" tabindex="3" required>
+            
+            <label for="message" class="prompts">Message:</label>
+            <textarea class="message" id="message" tabindex="4" required></textarea>
+            
+            <button type="submit" tabindex="5" id="send_button">
+                <img src="images/send.png" width="100" alt="send">
+            </button>
+        </form>
         
         <section>
             <h3>Find me on social media!</h3>
@@ -98,7 +108,9 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     <section class="push">
     </section>
     </section>
-        
+
+    
+    
     <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
         

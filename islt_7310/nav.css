@@ -106,3 +106,12 @@ label {
     
     #toggle:checked + #nav_menu {
         display: block;}}
+
+@media screen and (max-width:800px){
+    nav a{
+        font-size: 12px;
+    }
+    #nav_menu ul li {
+        padding: 0 10px;
+    }
+}

@@ -4,17 +4,17 @@
 
 *****************************************************************************
 
-Title:  Resume Page
+Title:  Education
 
-Use:  Links user to a .PDF file of Maria Emilia Lasso de la Vega's Resume
+Use:  Page to list Education
 
 Author:  Maria Emilia Lasso de la Vega
 
 School/Term:  Mizzou, Summer 2020
 
-Developed: June 28, 2020
+Developed: July 27, 2020
 
-Tested: July 24, 2018 - Firefox, Edge, and Chrome
+Tested: -
 
 ******************************************************************************
 
@@ -25,22 +25,15 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<title>Resume - Maria Emilia Lasso de la Vega</title>
+	<title>Welcome to Maria Emilia Lasso de la Vega's Website</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-    <style>
-        main{
-            text-align: center;
-            padding: 15px;}
-        #resume{
-            font-size: 3em;}
+</head>
 
-    </style>
-    </head>
-    
 <body>
     <section class="wrapper">
     
@@ -67,36 +60,51 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     
     <header>
         <h1> Maria Emilia Lasso de la Vega </h1>
-        
-        <h2>My Experience</h2>
     </header>
-    
-    <main>
-        <section id="pdf">
-            <a href="docs/lassodelavegaresume.pdf" id="resume">Resume</a>
-        </section>
+
+    <h2>Educational Background</h2>
         
+    <figure>    
+        <table>
+            <thead>
+                <tr>
+                    <th id"hdr_degree" scope="col" tabindex="1">Degree</th>
+                    <th id"hdr_institution" scope="col" tabindex="2">Institution</th>
+                    <th id"hdr_year" scope="col" tabindex="3">Year aquired</th>
+                    <th id"hdr_comments" scope="col" tabindex="4">Comments</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td headers="hdr_degree" tabindex="5">BA Arts and Technology</td>
+                    <td headers="hdr_institution" tabindex="6">The University of Texas at Dallas</td>
+                    <td headers="hdr_year" tabindex="7">2017</td>
+                    <td headers="hdr_comments" tabindex="8">Minor in dance <br> Cum Laude</td>
+                </tr>
+
+                <tr>
+                    <td headers="hdr_degree" tabindex="9">MS Learning Technologies and Design</td>
+                    <td headers="hdr_institution" tabindex="10">University of Missouri</td>
+                    <td headers="hdr_year" tabindex="11">2021</td>
+                    <td headers="hdr_comments" tabindex="12">N/A</td>
+                </tr>
+            </tbody>
+        </table>
         
-        <section class="iframe-container">
-            <iframe width="250" height="140" src="https://www.youtube.com/embed/bEYRNpVzGtc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-    </main>
-        
-    <section class="push">
+         <figcaption>Educational Background</figcaption>
+    </figure>
+ <section class="push">
     </section>
     </section>
-    
-   <footer>
+
+    <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
         
         <p class="icon_contact"><img class="icons" src="images/phone.png" width="18" alt="phone icon"> 
         (469) 000-0000 | 
         <img class="icons" src="images/email.png" width="18" alt="email icon"> 
         <a href="mailto:melftm@mst.edu">melftm@mst.edu</a></p>
-        
-        <p><a href="https://icons8.com/icon/103129/email">Email icon by Icons8</a> <br>
-        <a href="https://icons8.com/icon/47813/phone">Phone icon by Icons8</a></p>
     </footer>
-    
 </body>
 </html>
