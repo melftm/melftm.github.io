@@ -290,15 +290,15 @@ footer{
     margin-bottom: 0;
 }
 
-.wrapper{
-    min-height: 100%;
-    Margin-bottom: -150px;
+.site{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.footer, .push{
-    height: 150px;
+.site_content{
+    flex: 1;
 }
-
 
 table{
     width: 75%;
