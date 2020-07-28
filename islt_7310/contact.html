@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<!--
+
+*****************************************************************************
+
+Title:  Contact Page
+
+Use:  Prompt user to contact me
+
+Author:  Maria Emilia Lasso de la Vega
+
+School/Term:  Mizzou, Summer 2020
+
+Developed: July 17, 2020
+
+Tested: July 24, 2018 - Firefox, Edge, and Chrome
+
+******************************************************************************
+
+-->
+
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>Contact Maria Emilia Lasso de la Vega</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+    <section class="wrapper">
+    
+    <nav>
+        <label id="hamburger" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <nav id="nav_menu">
+        	<ul>
+           	 <li><a href="index.html">home</a></li>
+           	 <li><a href="resume.html">resume</a></li>
+            	<li><a href="projects.html">projects &#9660;</a>
+                	<ul>
+                        <li><a href="projects.html#project1">Project 1</a></li>
+                        <li><a href="projects.html#project2">Project 2</a></li>
+                        <li><a href="projects.html#project3">Project 3</a></li>
+                	</ul>
+            	</li>
+            	<li><a href="reflection.html">reflection</a></li>
+                <li><a href="education.html">education</a></li>
+                <li><a href="contact.html">contact</a></li>
+        	</ul>
+		</nav>
+    </nav>
+    
+    <header>
+        <h1> Maria Emilia Lasso de la Vega </h1>
+    </header>
+    
+    <main>
+        <form action="mailto:melftm@mst.edu?Subjet=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+             <h2>Let's Connect!</h2>
+            
+            <label for="name_first" class="prompts">First Name:</label>
+            <input type="text" class="contact" id="name_first" autofocus tabindex="1" required>
+            
+            <label for="name_last" class="prompts">Last Name:</label>
+            <input type="text" class="contact" id="name_last" tabindex="2" required>
+            
+            <label for="email" class="prompts">Email:</label>
+            <input type="text" class="contact" id="email" tabindex="3" required>
+            
+            <label for="message" class="prompts">Message:</label>
+            <textarea class="message" id="message" tabindex="4" required></textarea>
+            
+            <button type="submit" tabindex="5" id="send_button">
+                <img src="images/send.png" width="100" alt="send">
+            </button>
+        </form>
+        
+        <section>
+            <h3>Find me on social media!</h3>
+            
+            <ul id="social_media">
+                <li>
+                    <a href="https://www.facebook.com/mariaemilia.lassodelavega">
+                    <img src="https://img.icons8.com/dusk/64/000000/facebook-new--v2.png" alt="fb logo"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mariaemilialdlv/">
+                    <img src="https://img.icons8.com/doodle/48/000000/instagram-new.png" width="64" alt="instagram logo"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/EsMariaEmilia">
+                    <img src="https://img.icons8.com/cotton/64/000000/twitter.png" alt="twitter logo"></a>
+                </li>
+                <li>
+                    <a href="https://www.redbubble.com/people/MariaEmiliaLdlV/shop?asc=u">
+                    <img src="https://img.icons8.com/dusk/64/000000/redbubble.png" alt="rb logo"></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <section class="push">
+    </section>
+    </section>
+
+    
+    
+    <footer>
+        <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
+        
+        <p class="icon_contact"><img class="icons" src="images/phone.png" width="18" alt="phone icon"> 
+        (469) 000-0000 | 
+        <img class="icons" src="images/email.png" width="18" alt="email icon"> 
+        <a href="mailto:melftm@mst.edu">melftm@mst.edu</a></p>
+        
+        <p>
+            <a href="https://icons8.com/icon/118498/facebook">Facebook icon by Icons8</a> <br>
+            <a href="https://icons8.com/icon/5eT5OnLluNOx/instagram">Instagram icon by Icons8</a> <br>
+            <a href="https://icons8.com/icon/68193/twitter">Twitter icon by Icons8</a> <br>
+            <a href="https://icons8.com/icon/f0QmaOO9wuIj/redbubble">RedBubble icon by Icons8</a>
+        </p>
+    </footer>
+
+</body>
+</html>
