@@ -120,6 +120,7 @@ h5{
     text-align: left;
     color: #000000;
     margin: 0;
+    display: contents;
 }
 
 .contact{
@@ -296,6 +297,7 @@ footer{
 
 .footer, .push{
     height: 150px;
+}
 
 
 table{
@@ -352,8 +354,7 @@ figcaption{
         margin: .5cm;}}
 
 @media screen and (max-width:959px){
-    body{width:100%;}
-    .prompts{display: contents;}}
+    body{width:100%;}}
 
 @media screen and (max-width:800px){
     table{
