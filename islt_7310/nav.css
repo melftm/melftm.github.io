@@ -85,6 +85,7 @@ nav .current{
     text-decoration: underline !important;
 }
 
+
 @media only screen and (max-width:650px){
     #hamburger{
     display: block;
@@ -122,7 +123,6 @@ nav .current{
     position: relative;
     }
 }
-
 
 @media screen and (max-width:800px){
     nav a{
