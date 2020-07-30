@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 
 <!--
-
 *****************************************************************************
-
 Title:  Contact Page
-
 Use:  Prompt user to contact me
-
 Author:  Maria Emilia Lasso de la Vega
-
 School/Term:  Mizzou, Summer 2020
-
 Developed: July 17, 2020
-
-Tested: July 24, 2018 - Firefox, Edge, and Chrome
-
+Tested: July 29, 2018 - Firefox, Edge, and Chrome
 ******************************************************************************
-
 -->
 
 <html lang="en-US">
@@ -32,8 +23,7 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     <link rel="stylesheet" href="nav.css">
 
 </head>
-<body>
-    <section class="wrapper">
+<body class="site">
     
     <nav>
         <label id="hamburger" for="toggle">&#9776;</label>
@@ -51,7 +41,7 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
             	</li>
             	<li><a href="reflection.html">reflection</a></li>
                 <li><a href="education.html">education</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html" class="current">contact</a></li>
         	</ul>
 		</nav>
     </nav>
@@ -60,21 +50,23 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         <h1> Maria Emilia Lasso de la Vega </h1>
     </header>
     
-    <main>
+    <main class="site_content">
+        <h2>Let's Connect!</h2>
+        
+        
         <form action="mailto:melftm@mst.edu?subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
-             <h2>Let's Connect!</h2>
             
-            <label for="name_first" class="prompts">First Name:</label>
-            <input type="text" class="contact" id="name_first" autofocus tabindex="1" required>
+            <label for="name_first">First Name:</label>
+            <input type="text" class="contact" id="name_first" name="name_first" placeholder="First Name" autofocus tabindex="1" required><br>
             
-            <label for="name_last" class="prompts">Last Name:</label>
-            <input type="text" class="contact" id="name_last" tabindex="2" required>
+            <label for="name_last">Last Name:</label>
+            <input type="text" class="contact" id="name_last" name="name_last" placeholder="Last Name"  tabindex="2" required><br>
             
-            <label for="email" class="prompts">Email:</label>
-            <input type="email" class="contact" id="email" tabindex="3" required>
+            <label for="email">Email:</label>
+            <input type="email" class="contact" id="email" name="email" placeholder="Email" tabindex="3" required><br>
             
-            <label for="message" class="prompts">Message:</label>
-            <textarea class="message" id="message" tabindex="4" required></textarea>
+            <label for="message">Message:</label>
+            <textarea class="message" id="message" name="message" placeholder="Write your message here" tabindex="4" required></textarea>
             
             <button type="submit" tabindex="5" id="send_button">
                 <img src="images/send.png" width="100" alt="send">
@@ -104,11 +96,6 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
             </ul>
         </section>
     </main>
-    
-    <section class="push">
-    </section>
-    </section>
-
     
     
     <footer>

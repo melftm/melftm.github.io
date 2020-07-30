@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 
 <!--
-
 *****************************************************************************
-
 Title:  Resume Page
-
 Use:  Links user to a .PDF file of Maria Emilia Lasso de la Vega's Resume
-
 Author:  Maria Emilia Lasso de la Vega
-
 School/Term:  Mizzou, Summer 2020
-
 Developed: June 28, 2020
-
-Tested: July 24, 2018 - Firefox, Edge, and Chrome
-
+Tested: July 29, 2018 - Firefox, Edge, and Chrome
 ******************************************************************************
-
 -->
 
 <html lang="en-US">
@@ -41,8 +32,7 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     </style>
     </head>
     
-<body>
-    <section class="wrapper">
+<body class="site">
     
     <nav>
         <label id="hamburger" for="toggle">&#9776;</label>
@@ -50,7 +40,7 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         <nav id="nav_menu">
         	<ul>
            	 <li><a href="index.html">home</a></li>
-           	 <li><a href="resume.html">resume</a></li>
+           	 <li><a href="resume.html" class="current">resume</a></li>
             	<li><a href="projects.html">projects &#9660;</a>
                 	<ul>
                         <li><a href="projects.html#project1">Project 1</a></li>
@@ -67,11 +57,11 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     
     <header>
         <h1> Maria Emilia Lasso de la Vega </h1>
-        
-        <h2>My Experience</h2>
     </header>
     
-    <main>
+    <main class="site_content">
+        <h2>My Experience</h2>
+        
         <section id="pdf">
             <a href="docs/lassodelavegaresume.pdf" id="resume">Resume</a>
         </section>
@@ -81,10 +71,6 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
             <iframe width="250" height="140" src="https://www.youtube.com/embed/bEYRNpVzGtc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </main>
-        
-    <section class="push">
-    </section>
-    </section>
     
    <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>

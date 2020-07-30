@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 
 <!--
-
 *****************************************************************************
-
 Title:  Home Page
-
 Use:  Landing page for professional portfolio website
-
 Author:  Maria Emilia Lasso de la Vega
-
 School/Term:  Mizzou, Summer 2020
-
 Developed: June 28, 2020
-
-Tested: July 24, 2018 - Firefox, Edge, and Chrome
-
+Tested: July 29, 2018 - Firefox, Edge, and Chrome
 ******************************************************************************
-
 -->
 
 
@@ -34,15 +25,14 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <section class="wrapper">
+<body class="site">
     
     <nav>
         <label id="hamburger" for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <nav id="nav_menu">
         	<ul>
-           	 <li><a href="index.html">home</a></li>
+           	 <li><a href="index.html" class="current">home</a></li>
            	 <li><a href="resume.html">resume</a></li>
             	<li><a href="projects.html">projects &#9660;</a>
                 	<ul>
@@ -62,7 +52,7 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         <h1> Maria Emilia Lasso de la Vega </h1>
     </header>
     
-    <main>
+    <main class="site_content">
         <p id="welcome"> Welcome to my professional portfolio! My name is Maria Emilia Lasso de la Vega and in this portfolio you will find everything you need to know about me and the work that I do.</p>
 
         <h2>A little about me...</h2>
@@ -70,8 +60,6 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         <img src="images/headshot.PNG" id="headshot" alt="Maria Emilia Lasso de la Vega's professional headshot">
         
         <section id="bio_container">
-            
-            
 
             <p id="bio">I was born and raised in the Republic of Panama and moved to the US in 2014 to pursue my bachelor's degree. Currently, I am a student at the University of Missouri pursuing a Master of Science in Learning Technologies and Design, and I expect to complete my studies in the fall of 2021. Currently, I work with Missouri University of Science and Technology in the department of Student Diversity Initiatives. I hope that this degree can provide me with more insight to develop research backed training opportunities to tackle current global needs and provide new educational opportunities to underserved populations. The purpose of this portfolio is to show understanding and mastery of the Learning Technologies and Design competencies: Design and Development of Learning Systems, Front-End Analysis and System Evaluation, and Leadership and Social Responsibility.</p>
         </section>
@@ -90,17 +78,13 @@ Tested: July 24, 2018 - Firefox, Edge, and Chrome
         </section>
 
        <blockquote id="quote">
-           <p>>&ldquo;Aprender a leer es lo más importante que me ha pasado en la vida.&rdquo;<br>
+           <p>&ldquo;Aprender a leer es lo más importante que me ha pasado en la vida.&rdquo;<br>
 
             &ldquo;Learning how to read is the most important thing that has happened to me.&rdquo;</p>
            
            <p id="author">- Mario Vargas Llosa</p>
         </blockquote>
     </main>
-        
-    <section class="push">
-    </section>
-    </section>
 
     <footer>
         <p>&copy; 2020 All rights reserved by Maria Emilia Lasso de la Vega</p>
