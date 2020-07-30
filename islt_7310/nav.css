@@ -90,7 +90,6 @@ nav .current{
     display: block;
     cursor: pointer;
     }
-}
     
     #nav_menu {
         text-align: center;
@@ -121,6 +120,7 @@ nav .current{
     #nav_menu ul li:hover > ul{
     display: block;
     position: relative;
+    }
 }
 
 
