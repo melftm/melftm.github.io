@@ -235,6 +235,24 @@ ul{                     /*education list*/
     padding: 5px;
 }
 
+#memory{
+    width: 500px;
+    margin: 50px auto 20px auto;
+    padding: 10px 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    background: #e0e0e0;
+    border: 3px inset;
+}
+
+#papi{
+    width: 400px;
+    height: 300px;
+    margin: 1em auto;
+    border: 6px inset #3990cc;
+}
+
 
 
 
