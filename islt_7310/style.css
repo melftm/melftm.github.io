@@ -356,16 +356,11 @@ figcaption{
 footer{
     background-color: #0093ab;
     height: auto;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     margin-bottom: 0;
     clear: both;
-    padding-top: 5px;
     font-size:10pt;
     text-align:center;
-    background-color: #0093ab;
-    height: 150px;
-    border-top: none;
-    padding-bottom: 10px;
 }
 
 #mail_foot{color:#000000;}
