@@ -368,6 +368,10 @@ footer{
     padding-bottom: 10px;
 }
 
+#mail_foot{color:#000000;}
+
+#mail_foot:hover{color: #ffffff;}
+
 .icon_contact{
     font-size: 1.5em;}
 
