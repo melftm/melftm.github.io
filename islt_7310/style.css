@@ -255,7 +255,6 @@ ul{                     /*education list*/
 
 
 
-
 /* Education Page Styling ******************************************/
 table{
     width: 75%;
@@ -416,6 +415,10 @@ footer{
     
     tr{
         font-size: 12px;}
+    
+    #memory{width: 75%;}
+    
+    #papi{width: 75%;}
 }
 
 @media screen and (max-width:640px){
